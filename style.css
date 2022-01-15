@@ -71,7 +71,7 @@ body{
     font-size: 5px;
 }
 .s2-picture{
-    width: 30%;
+    width: 80%;
     border: 1px solid rgb(231, 212, 212);
     padding-left: 5px;
     border-radius: 3px;
@@ -80,3 +80,10 @@ body{
 #span{
     font-size: 4px;
 }
+.sec-2-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+
+}
+    
