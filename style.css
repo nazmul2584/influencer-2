@@ -44,3 +44,37 @@ body{
     padding-left: 2em;
     
 }
+.pc{
+    font-size: 4px;
+    text-align: center;
+}
+.s2-pictures img{
+    height: 50px;
+    width: 90%;
+    margin-top: 5px;
+    
+}
+.bl-camera{
+    font-size: 4px;
+}
+.bl-camera-p{
+    color: dimgray;
+    font-size: 3px;
+    font-weight: 800;
+}
+.fa-star.filed{
+    color: goldenrod;
+    font-size: 5px;
+}
+.fa-star.empty{
+    color: grey;
+    font-size: 5px;
+}
+.s2-picture{
+    width: 30%;
+    border: 2px solid red;
+    padding-left: 5px;
+}
+#span{
+    font-size: 4px;
+}
