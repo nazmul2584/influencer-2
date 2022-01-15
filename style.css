@@ -6,13 +6,13 @@ body{
 }
 .in-text{
     font-size: 4px;
+    padding-left: 16px;
 }
 .inh{
-    font-size: 10px;
+    font-size: 7px;
 }
 .inp{
     font-size: 4px;
-    margin-top: 0%;
     
 }
 .button{
@@ -23,6 +23,7 @@ body{
     padding: 5px 15px;
     color: white;
     font-weight: 700;
+    
 }
 .picture img{
     width: 150%;
