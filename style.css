@@ -159,6 +159,33 @@ body{
     .populer-text:hover{
         font-size: 8px;
     }
+   
+    @media only screen and (max-width:200px) {
+        .influence-container {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+
+        }
+        .sec-2-container{
+
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .populer-continer{
+            grid-template-columns: repeat(1,1fr);
+
+        }
+        .footer{
+            width: 80px;
+            align-items: center;
+        }
+        .populer-text{
+            margin-left: 0px;
+        }
+        .fa-instagram-square{
+            margin-left: 1px;
+        }
+    }
     
     
     
