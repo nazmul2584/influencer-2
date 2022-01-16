@@ -50,30 +50,30 @@ body{
     text-align: center;
 }
 .s2-pictures img{
-    height: 120px;
+    height: 80px;
     width: 90%;
     margin-top: 5px;
     
 }
 .bl-camera{
-    font-size: 4px;
+    font-size: 12px;
 }
 .bl-camera-p{
     color: dimgray;
-    font-size: 7px;
+    font-size: 4px;
     font-weight: 800;
 }
 .fa-star.filed{
     color: goldenrod;
-    font-size: 5px;
+    font-size: 10px;
 }
 .fa-star.empty{
     color: grey;
     font-size: 5px;
 }
 .s2-picture{
-    width: 350px;
-    height:200px;
+    width: 250px;
+    height:250px;
     border: 1px solid rgb(231, 212, 212);
     padding-left: 5px;
     border-radius: 3px;
@@ -90,43 +90,45 @@ body{
 }
 .seemore{
     color: rgb(97, 25, 231);
-    font-size: 4px;
+    font-size: 25px;
     text-align: right;
-    padding-right: 10px;
+    margin-right: 150px;
 }
 .footer{
     background-color:rgb(97, 25, 231) ;
-    height: 60px;
+    height: 200px;
     color: white;
+    text-align: center;
+
 }
     .f-text{
         padding-top: 8px;
-        font-size: 4px;
+        font-size: 30px;
         text-align: center;
         height: 1px;
         
     }
       .f-p{
     
-        font-size: 3px;
+        font-size: 15px;
         text-align: center;
         padding-bottom: 9px;
         height: 0px;
         
     }
     .fa-instagram-square{
-        font-size: 5px;
+        font-size: 20px;
         padding-left: 100px;
         
     }
     .fa-youtube{
-        font-size: 5px;
+        font-size: 20px;
     }
     .fa-linkedin-in{
-        font-size: 5px;
+        font-size: 20px;
     }
     .fa-facebook-f{
-        font-size: 5px;
+        font-size: 20px;
 
     }
     .f-container{
@@ -142,14 +144,14 @@ body{
         transition: 2s;
     }
     .p-img{
-        height: 50px;
-        width: 70px;
+        height: 100px;
+        width: 150px;
     }
     .p-picture{
         border: 1px solid rgb(238, 231, 231);
         border-radius: 5px;
         text-align: center;
-        padding-top: 5px;
+        padding-top: 10px;
         background-color: whitesmoke;
     }
     .populer-continer{
@@ -159,6 +161,10 @@ body{
     }
     .populer-text:hover{
         font-size: 8px;
+    }
+    .star{
+        padding-top: 30px;
+        padding-right: 100px;
     }
    
     @media only screen and (max-width:200px) {
@@ -178,13 +184,15 @@ body{
         }
         .footer{
             width: 80px;
-            align-items: center;
+            text-align: center;
+            
         }
         .populer-text{
-            margin-left: 0px;
+            
+            background-color: firebrick;
         }
         .fa-instagram-square{
-            margin-left: 1px;
+            margin-left: 20px;
         }
        .seemore{
            font-size: 20px;
