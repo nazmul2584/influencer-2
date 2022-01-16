@@ -93,4 +93,45 @@ body{
     text-align: right;
     padding-right: 10px;
 }
+.footer{
+    background-color:rgb(97, 25, 231) ;
+    height: 60px;
+    color: white;
+}
+    .f-text{
+        padding-top: 8px;
+        font-size: 4px;
+        text-align: center;
+        height: 1px;
+        
+    }
+      .f-p{
+    
+        font-size: 3px;
+        text-align: center;
+        padding-bottom: 9px;
+        height: 0px;
+        
+    }
+    .fa-instagram-square{
+        font-size: 5px;
+        padding-left: 100px;
+        
+    }
+    .fa-youtube{
+        font-size: 5px;
+    }
+    .fa-linkedin-in{
+        font-size: 5px;
+    }
+    .fa-facebook-f{
+        font-size: 5px;
+
+    }
+    .f-container{
+        height: 9px;
+    }
+
+    
+    
     
